@@ -18,8 +18,12 @@ ul {
     flex-wrap: wrap;
 }
 
-a {
+span > a {
     color: red;
+}
+
+span > a:hover {
+    color: black
 }
 
 button {
@@ -37,6 +41,7 @@ button {
 button:hover {
     color: red;
     background-color: #ffffff;
+    border: 1px solid red
 }
 
 hr {
