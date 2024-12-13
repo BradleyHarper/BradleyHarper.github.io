@@ -56,11 +56,6 @@ strong {
     max-width: 95vw;
     padding: 2px;
     border: 2px solid black;
-    transition: transform .2s;
-}
-
-.collage-photos:active {
-    transform: scale(1.5);
 }
 
 /* Icons */
