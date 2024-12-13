@@ -15,6 +15,16 @@ body {
     justify-content: center;
 }
 
+footer {
+    display: inline;
+    text-align: center;
+}
+
+footer > h5 {
+    margin: 5px;
+    color: grey;
+}
+
 h3 {
     margin: 10px 0px;
 }
@@ -38,6 +48,7 @@ hr {
 
 strong {
     font-size: larger;
+    padding-bottom: 5px;
 }
 
 .collage-photos {
@@ -49,6 +60,10 @@ strong {
 
 .collage-photo-titles {
     padding: 20px 0 0 0;
+}
+
+.collage-sources {
+    color: grey;
 }
 
 /* Icons beside the links at the top of the website */
@@ -70,7 +85,7 @@ strong {
 }
 
 .sub-title {
-    color: rgb(57, 57, 57);
+    color: grey;
 }
 
 .title {
