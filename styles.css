@@ -1,9 +1,10 @@
 a {
     color: red;
+    max-width: fit-content;
 }
 
 a:hover {
-    color: black
+    color: black;
 }
 
 body {
@@ -18,31 +19,13 @@ h3 {
     margin: 10px 0px;
 }
 
-h5 {
+h1, h5 {
     margin: 0px;
 }
 
 html {
     display: flex;
     justify-content: center;
-}
-
-button {
-    color: black;
-    background-color: #ffffff;
-    font-size: medium;
-    border: 1px solid black;
-    padding: 15px 50px;
-    margin-right: 10px;
-    cursor: pointer;
-    flex-direction: row;
-    width: 250px;
-}
-
-button:hover {
-    color: red;
-    background-color: #ffffff;
-    border: 1px solid red
 }
 
 hr {
@@ -64,7 +47,7 @@ strong {
     margin-bottom: 5px;
 }
 
-/* Icons */
+/* Icons beside the links at the top of the website */
 .intro > a > img {
     max-height: 15px;
 }
@@ -78,15 +61,18 @@ strong {
     margin: 2px 0px;
 }
 
-.logo-image-container {
-    display: flex;
-    justify-content: right;
-}
-
 .logo-image {
     max-width: 200px;
 }
 
 .sub-title {
     color: rgb(57, 57, 57);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-flow: wrap-reverse;
+    align-items: end;
 }
