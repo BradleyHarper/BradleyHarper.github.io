@@ -67,7 +67,7 @@ strong {
 }
 
 /* Icons beside the links at the top of the website */
-.intro > a > img {
+.link-icons {
     max-height: 15px;
 }
 
