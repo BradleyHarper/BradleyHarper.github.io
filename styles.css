@@ -1,3 +1,11 @@
+a {
+    color: red;
+}
+
+a:hover {
+    color: black
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,24 +14,13 @@ body {
     justify-content: center;
 }
 
+h3 {
+    margin: 10px 0px;
+}
+
 html {
     display: flex;
     justify-content: center;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-span > a {
-    color: red;
-}
-
-span > a:hover {
-    color: black
 }
 
 button {
@@ -56,7 +53,7 @@ strong {
 }
 
 .collage-photos {
-    max-width: 100%;
+    max-width: 95vw;
     padding: 2px;
     border: 2px solid black;
     transition: transform .2s;
@@ -66,8 +63,18 @@ strong {
     transform: scale(1.5);
 }
 
+/* Icons */
+.intro > a > img {
+    max-height: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
 .links > a {
-    font-size: larger;
+    margin: 2px 0px;
 }
 
 .logo-image-container {
@@ -77,4 +84,8 @@ strong {
 
 .logo-image {
     max-width: 200px;
+}
+
+.sub-title {
+    color: rgb(57, 57, 57);
 }
