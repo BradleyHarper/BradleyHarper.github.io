@@ -47,6 +47,10 @@ strong {
     margin-bottom: 5px;
 }
 
+.collage-photo-titles {
+    padding: 20px 0 0 0;
+}
+
 /* Icons beside the links at the top of the website */
 .intro > a > img {
     max-height: 15px;
