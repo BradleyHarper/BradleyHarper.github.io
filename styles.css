@@ -102,3 +102,20 @@ strong {
     flex-flow: wrap-reverse;
     align-items: end;
 }
+
+/* Lore page specific styling*/
+
+.container {
+    display: flex;
+}
+
+.Origin, .Antigen {
+    
+}
+
+.Origin > img, .Antigen > img {
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    width: 400px;
+}
