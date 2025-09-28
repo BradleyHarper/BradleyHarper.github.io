@@ -105,12 +105,25 @@ strong {
 
 /* Lore page specific styling*/
 
+.article-images {
+    width: 800px;
+}
+
+#past {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
+    padding: 10px 0px;
 }
 
 .Origin, .Antigen {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Origin > img, .Antigen > img {
