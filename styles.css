@@ -127,8 +127,8 @@ strong {
 }
 
 .Origin > img, .Antigen > img {
-    position: relative;
+    position: sticky;
     bottom: 50px;
     right: 50px;
-    width: 400px;
+    width: 300px;
 }
