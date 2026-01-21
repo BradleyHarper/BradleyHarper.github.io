@@ -60,10 +60,10 @@ strong {
     transition: transform 0.25s ease;
 }
 
-#scaler:hover {
+/* #scaler:hover {
     -webkit-transform: scale(1.5);
     transform:scale(1.5);
-}
+} */
 
 .collage-photo-titles {
     padding: 20px 0 0 0;
